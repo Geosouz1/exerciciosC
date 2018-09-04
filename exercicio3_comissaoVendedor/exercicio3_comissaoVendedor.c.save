@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main (){
+
+int codigoVendedor = 0;
+int codigoPeca = 0;
+int quantidadePeca = 0;
+float comissao = 0;
+
+printf("\n\n********************************************************************\n");
+printf("\n********************** Comissão do Vendedor ************************\n\n");
+
+printf("Digite o código do vendedor: ");
+scanf("%d", & codigoVendedor);
+printf("\n");
+
+printf("Digite o código da peça: ");
+scanf("%d", & codigoPeca);
+prinf("\n");
+
+printf("Digite a quantidade de peças: ");
+scanf("%d",& quantidadePeca);
+
+switch (codigoVendedor)
+{
+	case 1:
+		ite o codigo da Peça: ");
+		scanf("%d", & codigoPeca);
+		printf("\n");
+
+		switch (codigoPeca)
+			case 1:
+				printf("Digite a quantidade de peças: ");
+				scanf("%d",& quantidadePeca);
+				comissao = (quantidadePeca * 2) * 0.05;
+				
+				printf("\n");
+				printf("A vendedora Maria do Rosario vendeu %d Limões e teve %2.f de comissão", quantidadePeca, comissao);
+				printf("\n \n");
+				break;
+	}
+	case 2:
+	
+}
